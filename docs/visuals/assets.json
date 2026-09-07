@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "project": "mybank-banking-data-science",
+  "created_on": "2026-09-07",
+  "cover": {
+    "method": "Original AI image generation with image_gen; project identity refined with the same tool.",
+    "prompt_summary": "Paisaje de datos sintéticos y cortes temporales de vidrio, con una evaluación reservada, en índigo y ámbar. Composición editorial amplia, título en español, identificador propio del proyecto, sin logos ni métricas ficticias.",
+    "is_runtime_evidence": false,
+    "original_preserved": true
+  },
+  "diagrams": {
+    "method": "Native editable SVG, rendered to PNG with CairoSVG.",
+    "framework": "AWS Well-Architected",
+    "official_sources": "sources.json",
+    "interpretation": "Project review; current evidence and proposed architecture are separate. No certification or score."
+  },
+  "validation": {
+    "visual_review": "All three images inspected at full artifact size.",
+    "svg_dimensions": [
+      1800,
+      1200
+    ],
+    "external_svg_resources": false,
+    "source_hashes": "sources.json",
+    "max_image_bytes": 3000000
+  },
+  "files": [
+    {
+      "file": "cover.png",
+      "sha256": "5f4be411ddb10d76ce066b9ec5a9a093218d3c5a747fd3c9e54f7b3cc636bec6",
+      "bytes": 2083616,
+      "dimensions": [
+        1672,
+        941
+      ]
+    },
+    {
+      "file": "solution-architecture.svg",
+      "sha256": "1fc6bda8b26d67c9dcb7ad08c74a7af454a90b3e5093e099c23651a34aa9c623",
+      "bytes": 17364
+    },
+    {
+      "file": "solution-architecture.png",
+      "sha256": "ae3240269837195b1137ecff27846ad7911664ee11fb4066cf734da10a348862",
+      "bytes": 196538,
+      "dimensions": [
+        1800,
+        1200
+      ]
+    },
+    {
+      "file": "well-architected.svg",
+      "sha256": "f0ad84f92a2fc8b2a94210e5adbc518d9cc5fa21efa0ca4664ae8c97c6ddd9b1",
+      "bytes": 13981
+    },
+    {
+      "file": "well-architected.png",
+      "sha256": "d1fb8fa30ef29febb872c81f18c4da82447291441c7f1702048c9220d972ab40",
+      "bytes": 155881,
+      "dimensions": [
+        1800,
+        1200
+      ]
+    }
+  ]
+}

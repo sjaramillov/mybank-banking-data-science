@@ -1,0 +1,14 @@
+test_calibration_table_preserves_all_observations (test_solucion.BankingClassificationLabTests.test_calibration_table_preserves_all_observations) ... ok
+test_dataset_makes_label_availability_explicit (test_solucion.BankingClassificationLabTests.test_dataset_makes_label_availability_explicit) ... ok
+test_default_flow_keeps_holdout_closed (test_solucion.BankingClassificationLabTests.test_default_flow_keeps_holdout_closed) ... ok
+test_evaluate_reports_design_budget_without_promising_it (test_solucion.BankingClassificationLabTests.test_evaluate_reports_design_budget_without_promising_it) ... ok
+test_features_exclude_future_information_and_identifiers (test_solucion.BankingClassificationLabTests.test_features_exclude_future_information_and_identifiers) ... ok
+test_pipeline_handles_missing_and_unseen_category (test_solucion.BankingClassificationLabTests.test_pipeline_handles_missing_and_unseen_category) ... ok
+test_temporal_split_is_ordered_purged_and_nonempty (test_solucion.BankingClassificationLabTests.test_temporal_split_is_ordered_purged_and_nonempty) ... ok
+test_threshold_inputs_are_validated (test_solucion.BankingClassificationLabTests.test_threshold_inputs_are_validated) ... ok
+test_threshold_selection_is_exact_and_respects_capacity (test_solucion.BankingClassificationLabTests.test_threshold_selection_is_exact_and_respects_capacity) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.455s
+
+OK

@@ -1,0 +1,140 @@
+{
+  "schema_version": 1,
+  "project": "mybank-banking-data-science",
+  "product": "Ciencia de datos bancaria",
+  "date": "2026-09-07",
+  "scope": "Proyecto independiente con dos laboratorios y datos sintéticos. Sin clientes ni resultados reales afirmados.",
+  "web_sources": [
+    {
+      "id": "AWS-WA-00",
+      "title": "The pillars of the framework",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/the-pillars-of-the-framework.html",
+      "accessed_on": "2026-09-07",
+      "supports": "Confirma los seis pilares vigentes; no evalúa este proyecto."
+    },
+    {
+      "id": "AWS-WA-01",
+      "title": "Definitions",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/definitions.html",
+      "accessed_on": "2026-09-07",
+      "supports": "Definiciones y propósito del marco; no otorga certificación."
+    },
+    {
+      "id": "AWS-WA-OPS",
+      "title": "Operational excellence",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/operational-excellence.html",
+      "accessed_on": "2026-09-07",
+      "supports": "Referencia oficial del pilar Operational excellence; no demuestra su implementación en el proyecto."
+    },
+    {
+      "id": "AWS-WA-SEC",
+      "title": "Security",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/security.html",
+      "accessed_on": "2026-09-07",
+      "supports": "Referencia oficial del pilar Security; no demuestra su implementación en el proyecto."
+    },
+    {
+      "id": "AWS-WA-REL",
+      "title": "Reliability",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/reliability.html",
+      "accessed_on": "2026-09-07",
+      "supports": "Referencia oficial del pilar Reliability; no demuestra su implementación en el proyecto."
+    },
+    {
+      "id": "AWS-WA-PERF",
+      "title": "Performance efficiency",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/performance-efficiency.html",
+      "accessed_on": "2026-09-07",
+      "supports": "Referencia oficial del pilar Performance efficiency; no demuestra su implementación en el proyecto."
+    },
+    {
+      "id": "AWS-WA-COST",
+      "title": "Cost optimization",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/cost-optimization.html",
+      "accessed_on": "2026-09-07",
+      "supports": "Referencia oficial del pilar Cost optimization; no demuestra su implementación en el proyecto."
+    },
+    {
+      "id": "AWS-WA-SUS",
+      "title": "Sustainability",
+      "url": "https://docs.aws.amazon.com/wellarchitected/latest/framework/sustainability.html",
+      "accessed_on": "2026-09-07",
+      "supports": "Referencia oficial del pilar Sustainability; no demuestra su implementación en el proyecto."
+    },
+    {
+      "id": "AWS-SM-PIPE",
+      "title": "Define a pipeline",
+      "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/define-pipeline.html",
+      "accessed_on": "2026-09-07",
+      "supports": "Soporta orquestación de Processing, Training, evaluación, registro y transformación; capacidad propuesta, no implementada."
+    },
+    {
+      "id": "AWS-SM-BATCH",
+      "title": "Batch transform for inference with Amazon SageMaker AI",
+      "url": "https://docs.aws.amazon.com/sagemaker/latest/dg/batch-transform.html",
+      "accessed_on": "2026-09-07",
+      "supports": "Soporta inferencia por lotes con entradas y salidas en S3; no demuestra despliegue del proyecto."
+    }
+  ],
+  "local_sources": [
+    {
+      "path": "docs/architecture.md",
+      "sha256": "df605e9e57b746d6bf4332aaf434f178814374579da71fa3a3f010202dfd962d"
+    },
+    {
+      "path": "docs/model-card.md",
+      "sha256": "ec210e4012b07629f3485b5b79957425bff9f799d4231355b74fbe15226ce187"
+    },
+    {
+      "path": "evidence/status.md",
+      "sha256": "96d89270ba53b61b17e690089580b01132109d43b29f405b0df2d841e3bda037"
+    },
+    {
+      "path": "evidence/2026-09-07-clean/run.json",
+      "sha256": "88035cac2586037f4a2ffff29b9cad34910569d4b53305292441a8b35766d187"
+    },
+    {
+      "path": "evidence/2026-09-07-clean/classification-development.json",
+      "sha256": "8eca0b03c6eef73f55132c629b9a271b8ba81a6abfbfd4f4d18f464261b2eae9"
+    },
+    {
+      "path": "evidence/2026-09-07-clean/incident_duration-development.json",
+      "sha256": "d9994e0f70b9474d44d92debcd4bbe63857916bb1a44b3c6645811ef0806d844"
+    }
+  ],
+  "interpretation": "Las fuentes oficiales respaldan definiciones y capacidades. El mapeo a decisiones, evidencia y brechas es una interpretación propia, no auditoría ni certificación AWS.",
+  "artifacts": [
+    {
+      "file": "solution-architecture.svg",
+      "sha256": "1fc6bda8b26d67c9dcb7ad08c74a7af454a90b3e5093e099c23651a34aa9c623",
+      "canvas": [
+        1800,
+        1200
+      ],
+      "text_lines_geometry_checked": 70
+    },
+    {
+      "file": "well-architected.svg",
+      "sha256": "f0ad84f92a2fc8b2a94210e5adbc518d9cc5fa21efa0ca4664ae8c97c6ddd9b1",
+      "canvas": [
+        1800,
+        1200
+      ],
+      "text_lines_geometry_checked": 63
+    }
+  ],
+  "checks": {
+    "xml_parsed": true,
+    "editable_text": true,
+    "embedded_rasters": false,
+    "scripts": false,
+    "external_font_dependencies": false,
+    "font_family": "Arial, sans-serif",
+    "canvas": [
+      1800,
+      1200
+    ],
+    "geometry": "Rectángulos dentro del canvas. Anchos de texto medidos con avances de Arial/Arial Bold y espaciado declarado; corredores de flechas revisados en coordenadas.",
+    "visual_render": "Pendiente del agente principal; no se generó PNG en esta entrega."
+  }
+}

@@ -1,0 +1,16 @@
+test_all_model_families_handle_missing_and_unseen_category (test_solucion.BankingRegressionLabTests.test_all_model_families_handle_missing_and_unseen_category) ... ok
+test_dataset_makes_label_availability_explicit (test_solucion.BankingRegressionLabTests.test_dataset_makes_label_availability_explicit) ... ok
+test_default_flow_never_invokes_holdout_evaluation (test_solucion.BankingRegressionLabTests.test_default_flow_never_invokes_holdout_evaluation) ... ok
+test_features_exclude_future_information_and_identifiers (test_solucion.BankingRegressionLabTests.test_features_exclude_future_information_and_identifiers) ... ok
+test_metric_inputs_reject_invalid_vectors (test_solucion.BankingRegressionLabTests.test_metric_inputs_reject_invalid_vectors) ... ok
+test_metrics_match_hand_calculation (test_solucion.BankingRegressionLabTests.test_metrics_match_hand_calculation) ... ok
+test_overlapping_development_cohorts_are_rejected (test_solucion.BankingRegressionLabTests.test_overlapping_development_cohorts_are_rejected) ... ok
+test_residual_sign_is_explicit_and_diagnostics_are_finite (test_solucion.BankingRegressionLabTests.test_residual_sign_is_explicit_and_diagnostics_are_finite) ... ok
+test_segment_errors_preserve_each_population (test_solucion.BankingRegressionLabTests.test_segment_errors_preserve_each_population) ... ok
+test_selection_is_the_lowest_validation_mae_with_declared_tiebreak (test_solucion.BankingRegressionLabTests.test_selection_is_the_lowest_validation_mae_with_declared_tiebreak) ... ok
+test_temporal_split_is_ordered_purged_and_nonempty (test_solucion.BankingRegressionLabTests.test_temporal_split_is_ordered_purged_and_nonempty) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.855s
+
+OK

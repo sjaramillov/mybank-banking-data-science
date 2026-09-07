@@ -1,0 +1,74 @@
+{
+  "threshold": 0.052984278440860406,
+  "validation": {
+    "n": 1511,
+    "prevalence": 0.028457974851091992,
+    "reference_prevalence_train": 0.025826648405400117,
+    "roc_auc": 0.7669349217413344,
+    "average_precision": 0.16973416468582414,
+    "log_loss": 0.11285476365752993,
+    "log_loss_baseline": 0.12947365225475335,
+    "log_loss_improvement": 0.016618888597223422,
+    "brier": 0.025929044008385298,
+    "brier_baseline": 0.0276550423973304,
+    "brier_skill": 0.062411706485458684,
+    "threshold": 0.052984278440860406,
+    "precision": 0.12751677852348994,
+    "recall": 0.4418604651162791,
+    "tp": 19,
+    "fp": 130,
+    "fn": 24,
+    "tn": 1338,
+    "alerts": 149,
+    "alert_rate": 0.0986101919258769,
+    "design_capacity_reference": 181,
+    "design_budget_breached": false,
+    "cost": 51250000.0
+  },
+  "validation_calibration": [
+    {
+      "bin": 0,
+      "lower": 0.0,
+      "upper": 0.1,
+      "n": 1476,
+      "mean_probability": 0.02325779046363571,
+      "event_rate": 0.023035230352303523,
+      "gap_observed_minus_predicted": -0.00022256011133218664
+    },
+    {
+      "bin": 1,
+      "lower": 0.1,
+      "upper": 0.2,
+      "n": 28,
+      "mean_probability": 0.13755694204284571,
+      "event_rate": 0.21428571428571427,
+      "gap_observed_minus_predicted": 0.07672877224286856
+    },
+    {
+      "bin": 2,
+      "lower": 0.2,
+      "upper": 0.3,
+      "n": 7,
+      "mean_probability": 0.2703597131229523,
+      "event_rate": 0.42857142857142855,
+      "gap_observed_minus_predicted": 0.15821171544847623
+    }
+  ],
+  "sizes": {
+    "train": 5111,
+    "validation": 1511,
+    "holdout_reserved": 1200,
+    "excluded_immature": 178
+  },
+  "as_of": {
+    "validation_start": "2018-05-03T00:00:00",
+    "test_start": "2022-09-19T00:00:00"
+  },
+  "design_policy": {
+    "max_alert_rate": 0.12,
+    "meaning": "presupuesto de diseño en validation; un threshold fijo no garantiza la misma tasa fuera de muestra"
+  },
+  "holdout_opened": false
+}
+
+Holdout reservado. Use --open-holdout solo después de congelar las decisiones del experimento.

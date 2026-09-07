@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "extracted_on": "2026-09-07",
+  "sources": {
+    "classification-baseline": "Laboratorio propio previo de clasificación; ubicación privada omitida.",
+    "incident-duration-baseline": "Laboratorio propio previo de duración de incidentes; ubicación privada omitida."
+  },
+  "interpretation": "Los hashes identifican bytes y cambios; no acreditan licencia ni ausencia histórica de exposición al holdout.",
+  "files": [
+    {
+      "source": "classification-baseline/datos.py",
+      "source_sha256": "e020394c23a08a96414b84a44de516f2d3c684316570246fb913a1b3d7eeeb5d",
+      "destination": "labs/classification/datos.py",
+      "destination_sha256": "02bb716427e680d6c39d96ade4efaad0e2eea6e50e87d3813320bbabfc71cefa",
+      "changes": "Solo sanitización editorial de docstrings; algoritmo, parámetros y tests conservados."
+    },
+    {
+      "source": "classification-baseline/solucion.py",
+      "source_sha256": "88c7804f25d33ed7e5af79bf7c10a9aee7fbfb1c5e2ba2610dcfa918aad2fe3f",
+      "destination": "labs/classification/solucion.py",
+      "destination_sha256": "88c7804f25d33ed7e5af79bf7c10a9aee7fbfb1c5e2ba2610dcfa918aad2fe3f",
+      "changes": "Copia exacta de código propio; sin cambios metodológicos."
+    },
+    {
+      "source": "classification-baseline/test_solucion.py",
+      "source_sha256": "b64d1cc8ee6f1b0595ffc4fb2cefbce617e7b3179e3482470ec72c7e934018e3",
+      "destination": "labs/classification/test_solucion.py",
+      "destination_sha256": "a723cb56d894521405036362c8460df3dbf0d4ea5f3b02309b17b2c20ad57264",
+      "changes": "Solo sanitización editorial de docstrings; algoritmo, parámetros y tests conservados."
+    },
+    {
+      "source": "classification-baseline/README.md",
+      "source_sha256": "85af887d2cb6cc068a3a2f018d98978515d800e19917bbe35a5598ba68dceb3c",
+      "destination": "docs/base/classification.md",
+      "destination_sha256": "d1382e50de66db035dc9c06180ab932a2ebc9b771e8b2af80094c70328dff020",
+      "changes": "Extracción de apartados técnicos; eliminación de preguntas/consignas y nombres de entidades; adaptación editorial, sin alterar método. Identidad independiente del proyecto y ajuste editorial; sin cambios de comportamiento."
+    },
+    {
+      "source": "incident-duration-baseline/datos.py",
+      "source_sha256": "4401d7f94a53d231bd2757a24d2ff2a80b60bbbb474cb552558db2f01ebdfbe9",
+      "destination": "labs/incident_duration/datos.py",
+      "destination_sha256": "bbdf1b1869d040c01ee95a225dd1b4b85aa4c45a8ffae306f162dcedf1025011",
+      "changes": "Solo sanitización editorial de docstrings; algoritmo, parámetros y tests conservados."
+    },
+    {
+      "source": "incident-duration-baseline/solucion.py",
+      "source_sha256": "bc426525c6856fc895285b96fc2c17f10a12b573fd27b43af8baf4340a002667",
+      "destination": "labs/incident_duration/solucion.py",
+      "destination_sha256": "bc426525c6856fc895285b96fc2c17f10a12b573fd27b43af8baf4340a002667",
+      "changes": "Copia exacta de código propio; sin cambios metodológicos."
+    },
+    {
+      "source": "incident-duration-baseline/test_solucion.py",
+      "source_sha256": "957d5825d2ae13c4d2425236c62beb669cb7cd7b6eac62c02ad15c8d7e34a49a",
+      "destination": "labs/incident_duration/test_solucion.py",
+      "destination_sha256": "957d5825d2ae13c4d2425236c62beb669cb7cd7b6eac62c02ad15c8d7e34a49a",
+      "changes": "Copia exacta de código propio; sin cambios metodológicos."
+    },
+    {
+      "source": "incident-duration-baseline/README.md",
+      "source_sha256": "1ba0e22ad7054308c61214794216a68729d0d2cf65bf07e890618fbfadacbe02",
+      "destination": "docs/base/incident_duration.md",
+      "destination_sha256": "e1cb9d50f185694bdb98582f8ff20e8b5124a4843085f6400627853e859e4853",
+      "changes": "Extracción de apartados técnicos; eliminación de preguntas/consignas y nombres de entidades; adaptación editorial, sin alterar método. Identidad independiente del proyecto y ajuste editorial; sin cambios de comportamiento."
+    },
+    {
+      "source": "classification-baseline/pyproject.toml",
+      "source_sha256": "db686767d492b86185541523e4043ac5ded1090cfc194c4ce0f90e4b3082355b",
+      "destination": "pyproject.toml",
+      "destination_sha256": "9f45aaa455d12656f3eb9b12bd01951ea850f4efbd41e3e12e30534d8d9efe19",
+      "changes": "Nombre/descripción del paquete; resolución de dependencias original conservada. Python 3.13 es el entorno verificado; el lock contempla otras versiones. Limpieza de espacios finales sin cambios semánticos. Identidad independiente del proyecto y ajuste editorial; sin cambios de comportamiento."
+    },
+    {
+      "source": "classification-baseline/uv.lock",
+      "source_sha256": "4d6567652c931103ecd9938881db56319655f68e4a0b66bf19bccd27ae0b94f1",
+      "destination": "uv.lock",
+      "destination_sha256": "6ab0e0cfd4771bc9f7b409f2075e7266b3d4eac87cb37bea60c9e7f894f3d6e0",
+      "changes": "Nombre/descripción del paquete; resolución de dependencias original conservada. Python 3.13 es el entorno verificado; el lock contempla otras versiones. Identidad independiente del proyecto y ajuste editorial; sin cambios de comportamiento."
+    }
+  ],
+  "scope": {
+    "repository": "mybank-banking-data-science",
+    "product": "Ciencia de datos bancaria",
+    "exclusive_source": "Laboratorios propios de clasificación y regresión con generadores sintéticos y validación temporal.",
+    "relationship": "Proyecto independiente para entidades financieras; sin atribución a un cliente concreto.",
+    "excluded_projects": [
+      "otros proyectos ajenos a estos dos laboratorios"
+    ]
+  }
+}

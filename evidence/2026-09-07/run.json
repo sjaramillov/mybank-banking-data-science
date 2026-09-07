@@ -1,0 +1,53 @@
+{
+  "executed_at_utc": "2026-09-07T16:07:14.377554+00:00",
+  "python": "3.13.12",
+  "platform": "Darwin",
+  "machine": "arm64",
+  "packages": {
+    "numpy": "2.5.2",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.0",
+    "scipy": "1.18.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.6.0",
+    "python-dateutil": "2.9.0.post0",
+    "six": "1.17.0"
+  },
+  "runs": [
+    {
+      "lab": "classification",
+      "command": "python -m unittest -v",
+      "working_directory": "labs/classification",
+      "exit_code": 0,
+      "log": "classification-tests.log",
+      "log_sha256": "17af6b8a7a93d243b631670592756f3fdf75296411e7f6c95ef50afdc333a0b6"
+    },
+    {
+      "lab": "classification",
+      "command": "python solucion.py",
+      "working_directory": "labs/classification",
+      "exit_code": 0,
+      "log": "classification-development.log",
+      "log_sha256": "5d22b44b44634cd530ad4b754188c498f59c69732b25dd23ed9addc0a58a117b",
+      "holdout_closed": true
+    },
+    {
+      "lab": "incident_duration",
+      "command": "python -m unittest -v",
+      "working_directory": "labs/incident_duration",
+      "exit_code": 0,
+      "log": "incident_duration-tests.log",
+      "log_sha256": "3a488f3319c0cd83addb2be8487f2471a41797b1fdac4e8e5106d00aed24b3fa"
+    },
+    {
+      "lab": "incident_duration",
+      "command": "python solucion.py",
+      "working_directory": "labs/incident_duration",
+      "exit_code": 0,
+      "log": "incident_duration-development.log",
+      "log_sha256": "d9994e0f70b9474d44d92debcd4bbe63857916bb1a44b3c6645811ef0806d844",
+      "holdout_closed": true
+    }
+  ],
+  "scope": "Synthetic data; development and contract tests only. No holdout evaluation requested."
+}
