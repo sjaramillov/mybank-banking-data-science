@@ -3,6 +3,8 @@ name = "mybank-banking-data-science"
 version = "0.1.0"
 description = "Laboratorios sintéticos de riesgo y duración de incidentes con validación temporal"
 requires-python = ">=3.11"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "NOTICE.md", "THIRD_PARTY_NOTICES.md"]
 dependencies = [
   "numpy>=2.0,<3",
   "pandas>=2.2,<4",

@@ -67,8 +67,8 @@
       "source": "classification-baseline/pyproject.toml",
       "source_sha256": "db686767d492b86185541523e4043ac5ded1090cfc194c4ce0f90e4b3082355b",
       "destination": "pyproject.toml",
-      "destination_sha256": "9f45aaa455d12656f3eb9b12bd01951ea850f4efbd41e3e12e30534d8d9efe19",
-      "changes": "Nombre/descripción del paquete; resolución de dependencias original conservada. Python 3.13 es el entorno verificado; el lock contempla otras versiones. Limpieza de espacios finales sin cambios semánticos. Identidad independiente del proyecto y ajuste editorial; sin cambios de comportamiento."
+      "destination_sha256": "05958685546e318ea346d66f519c693b781deb12dc52837ec71cbfffee827c0e",
+      "changes": "Nombre/descripción del paquete; resolución de dependencias original conservada. Python 3.13 es el entorno verificado; el lock contempla otras versiones. Limpieza de espacios finales sin cambios semánticos. Identidad independiente del proyecto y ajuste editorial; sin cambios de comportamiento. Metadatos de licencia Apache-2.0 y archivos de avisos; sin cambios de dependencias ni método."
     },
     {
       "source": "classification-baseline/uv.lock",
