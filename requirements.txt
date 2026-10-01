@@ -1,7 +1,7 @@
 # Versiones exactas del entorno limpio verificado con Python 3.13.
 cloudpickle==3.1.2
 joblib==1.6.0
-narwhals==2.25.0
+narwhals==2.26.0
 numpy==2.5.2
 pandas==3.0.5
 python-dateutil==2.9.0.post0
